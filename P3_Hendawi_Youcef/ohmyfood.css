@@ -1,0 +1,390 @@
+body{
+
+	font-family: 'Roboto';
+	font-size: 1rem;
+	text-align: center;
+	margin: 0;
+	}
+
+
+
+/* HEADER */
+
+
+/* image ohmyfood */
+	header img{
+
+	width: 50%;
+	margin-top: 1rem;
+
+	}
+
+
+/* Paris, Belleville */
+	header p{
+
+	width: 100%;
+	background-color: rgb(235,235,235);
+	padding: 1rem 0 1rem 0;
+	box-shadow: 0 0.1rem 0.2rem rgb(190, 190, 190) inset;
+	}
+
+
+/* logo Paris belleville */
+	header i{
+
+	padding-right: 0.8rem;
+	text-align: center;
+	}
+
+
+
+/* SECTION 1 EXPLORER */
+
+	#section-explorer{
+
+	background-color: rgb(245 245 245);
+	}
+
+
+	/* Reservez le menu qui vous convient */
+	#section-explorer h1{
+
+	font-size: 1.5rem;
+	padding-top: 10%; /* espace entre l'encadrement de paros belleville et le H1 */
+	margin-top: -5%; /* espace resserer entre l'encadrement de paris et H1 */
+	width: 80%; /* le H1 pren 80% de la taille de l'ecran et la marge autp sert a mettre du 10% de chaque coté de l'ecran */
+	margin-left: auto; 
+						/* le margin auto sert a aligner le H1 a 80% mais avec le meme espace de chaque cotés */
+	margin-right: auto;
+	}
+
+/* decouvrez des restos ... */
+	#section-explorer p{
+
+	font-size: 1.15rem;
+	color: rgb(108 108 108);
+	padding-bottom: 1rem; /* espace en dessous de 'decouvrez des restaurants ...' */
+	width: 100%;
+
+	}
+
+
+/* div pour agrandir le background-color en dessous du boutton */
+	#boutton-explorer{
+
+	padding-bottom: 15%;
+	}
+
+
+/* boutton Explorer Nos Resto */ 
+	#boutton-resto{
+
+	font-size: 1.03rem;
+	color: white;
+	background: linear-gradient(to left top, #9356DC, #FF79DA); /* indique que le #95(violet) commence en bas a droite et se termine en haut a gauche par le (#FF7 rose) en degradé progressif */
+	padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+	border-radius: 1.5rem;
+	border: none;
+	box-shadow: 1px 2px 6px grey;
+	margin-right: 0.5rem;
+	cursor: pointer;
+	}
+
+
+
+
+
+
+/* SECTION FONCTION *//* SECTION FONCTION *//* SECTION FONCTION */
+/* SECTION FONCTION *//* SECTION FONCTION *//* SECTION FONCTION */
+/* SECTION FONCTION *//* SECTION FONCTION *//* SECTION FONCTION */
+
+
+	#section-fonction{
+		margin: 3rem 0 3rem 0;
+	}
+
+
+
+	#section-fonction h1{
+
+	font-size: 1.5rem;
+	text-align: start;
+	margin-left: 1.3rem;
+	}
+
+
+
+/* Les boutons CHOISISSEZ, COMPOSEZ, DEGUSTEZ */
+	#section-fonction button{
+
+	background-color: rgb(246 246 246);
+	width: 85%;
+	border: none;
+	border-radius: 1.4rem;
+	box-shadow: 1px 5px 6px rgb(222 222 222);
+	font-size: 0.8rem;
+	margin-bottom: 1.3rem;
+	cursor: pointer;
+	padding: 10px 0 10px 0; /* ecarter en haut et en bas le cadre de l'interieur */
+	}
+
+
+	#section-fonction button:hover{
+	background-color: #FF79DA;
+	}
+
+
+	#section-fonction p{
+	font-size: 1rem;
+	position: absolute;
+	background-color: #9356DC;
+	left:19px;
+	border-radius: 11rem;
+	padding: 2px 7px 1px 6px;
+	color: white;
+
+	}
+
+
+ /* icone tel store burger */ 
+	#section-fonction i{
+
+	position: relative;
+	top: 1px;
+	}
+
+
+/* les 3 titres ensemble */
+	#mes_titres{
+
+	display: block;
+	text-align: center;
+	}
+
+
+/* 1ER Titre */ 
+	#mon_titre1{
+	
+	position: relative;
+	left: 5px;
+	}
+
+/* logo portable */
+	.fa-mobile-alt{
+
+	font-size: 20px;
+	left: -27px;
+
+	}
+
+
+
+
+/* 2EME Titre */
+	#mon_titre2{
+	
+	position: relative;
+	right: 5px;
+	}
+
+/* logo burger */
+	.fa-list-ul{
+
+	font-size: 17px;
+	right: 26px;
+	}
+
+
+
+
+/* 3EME Titre */
+	#mon_titre3{
+	
+	position: relative;
+	right: 4px;
+	}
+
+/* logo store */
+	.fa-store{
+
+	font-size: 17px;
+	left: -22px;
+	}
+
+
+
+
+
+
+/* SECTION RESTAURANT *//* SECTION RESTAURANT *//* SECTION RESTAURANT */
+/* SECTION RESTAURANT *//* SECTION RESTAURANT *//* SECTION RESTAURANT */
+/* SECTION RESTAURANT *//* SECTION RESTAURANT *//* SECTION RESTAURANT */
+
+
+	#section-resto{
+
+	background-color: rgb(245 245 245);
+	padding-top: 2rem;
+	}
+
+
+	#section-resto h1{
+
+	font-size: 1.5rem;
+	text-align: start;
+	margin-left: 1.5rem;
+	margin-bottom: 1.5rem;
+	}
+
+
+
+	#section-resto img{
+
+	background-color: white;
+	border-radius: 1rem;
+	object-fit: cover;
+	object-position: 50% -3rem; /* sert à deplacer l'image dans le cadre */
+	height: 15rem;
+	width: 92%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -5rem;
+	padding-bottom: 2rem;
+
+	
+	}
+
+
+
+	#section-resto figure{
+
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	
+	}
+
+
+
+	#section-resto h3{
+
+	font-size: 17px;
+
+	}
+
+/* description des images */
+	.descript{
+
+	position: relative;
+	bottom: 0.5rem;
+	right: 5rem;
+	}
+
+
+	.descript p{
+		display: block;
+	}
+
+
+
+	#section-resto i{
+
+	font-size: 1.5rem;
+ 	display: flex;
+    justify-content: flex-end;
+	position: relative;
+    bottom: 3.2rem;
+    left: 2.8rem;
+	}
+
+	#section-resto i:hover{
+
+	background-color: red;
+	cursor: pointer;
+	}
+
+
+	#img-note-enchante img{
+
+	padding-bottom: 5rem;
+	object-position: 50% -9rem;
+	height: 11.5rem;
+	}
+
+
+
+
+
+/* footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer */
+
+	footer{
+	background-color: rgb(53 53 53);
+	padding-top: 0.5rem;
+	text-align: start;
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+	}
+
+
+	#section-footer h3{
+		
+	font-family: Shrikhand;
+	font-weight: initial;
+	width: 100%;
+	color: white;
+	}
+
+
+
+	#section-footer{
+
+	margin-left: 1.3rem;
+	}
+
+
+	#section-footer ul{
+
+	position: relative;
+	right: 2.5rem;
+	list-style: none;
+	line-height: 1.8rem;
+	}
+
+
+
+	#section-footer a{
+
+	width: 100%;
+	text-decoration: none;
+	color: white;
+		
+	}
+
+
+
+	
+/* logo fourchette couteau */
+
+	.fa-utensils{
+
+	font-size: 0.8rem;
+	padding-right: 0.6rem;
+
+	}
+
+/* logo main  */
+
+	.fa-hands-helping{
+	
+	font-size: 0.7rem;
+	padding-right: 0.4rem;
+
+	}
+
+
+
+

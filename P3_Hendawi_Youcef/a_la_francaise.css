@@ -1,0 +1,35 @@
+
+body{
+
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+
+/* HEADER */ /* HEADER */
+header img{
+
+	width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+
+	header i{
+		width: 10%;
+		padding-left: 1rem;
+	}
+
+	#titre{
+		display: flex;
+		margin-top: 2rem;
+	}
+
+	#titre img{
+		width: 50%;
+		margin-bottom: 1rem;
+
+	}
